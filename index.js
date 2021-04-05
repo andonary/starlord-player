@@ -1,8 +1,15 @@
-const Player = require('./startlord-player/mp3player');
+const Player = require('./domain/startlord-player/mp3player');
+const Playlist = require('./domain/cassette/youtube');
+const Song = require('./domain/models/song');
 
-const player = new Player();
+const song = new Song();
+song.author = 'peter';
+song.name = 'quill';
+song.path = 'oula';
 
-console.log(player);
+const playlist = new Playlist();
+playlist.faceA = [song, new Song('t', 'r', 'g')]
+const player = new Player(playlist.faceA);
 
 player.play();
 player.pause();
