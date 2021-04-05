@@ -1,5 +1,5 @@
 const Reader = require('./reader');
-const extend = require('./extend');
+const extend = require('./core/extend');
 
 function Mp3player() {
     Reader.call(this);

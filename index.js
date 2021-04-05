@@ -1,4 +1,4 @@
-const Reader = require('./mp3player');
+const Reader = require('./domain/mp3player');
 
 const reader = new Reader();
 
