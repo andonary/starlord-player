@@ -1,5 +1,7 @@
 # starlord-reader
 
+Full JS project
+
 ## History of project
 
 This project's aim is to apply lessons in my own way of this course:
