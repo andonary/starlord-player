@@ -1,10 +1,10 @@
-const Reader = require('./domain/mp3player');
+const Player = require('./startlord-player/mp3player');
 
-const reader = new Reader();
+const player = new Player();
 
-console.log(reader);
+console.log(player);
 
-reader.play();
-reader.pause();
-reader.next();
-reader.previous();
+player.play();
+player.pause();
+player.next();
+player.previous();

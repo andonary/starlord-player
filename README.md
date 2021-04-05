@@ -2,6 +2,10 @@
 
 Full JS project
 
+```
+node ./index.js
+```
+
 ## History of project
 
 This project's aim is to apply lessons in my own way of this course:
