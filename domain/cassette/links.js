@@ -3,7 +3,8 @@ function Links() {
 
     Object.defineProperty(this, 'faceA', {
         get: function () {
-            return faceA.map(v => Object.freeze(v));
+            const newFaceA = faceA.map(v => Object.freeze(v));
+            return Object.freeze(newFaceA);
         },
         set: function (newVolume) {
             faceA = newVolume.map(v => Object.freeze(v));
