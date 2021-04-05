@@ -14,4 +14,6 @@ const player = new Player(playlist.faceA);
 player.play();
 player.pause();
 player.next();
+player.play();
 player.previous();
+player.play();
