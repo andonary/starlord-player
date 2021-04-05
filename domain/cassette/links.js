@@ -1,7 +1,7 @@
 function Links() {
     let faceA = [];
 
-    Object.defineProperty(this, 'volumeOne', {
+    Object.defineProperty(this, 'faceA', {
         get: function () {
             return faceA.map(v => Object.freeze(v));
         },
