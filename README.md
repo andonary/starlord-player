@@ -1,4 +1,4 @@
-# starlord-reader
+# starlord-player
 
 Full JS project
 
