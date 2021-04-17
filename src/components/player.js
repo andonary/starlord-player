@@ -2,8 +2,9 @@ import ReactPlayer from 'react-player';
 import {useState} from 'react';
 import WalkmanHandler from '../core/app/walkmanHandler';
 
+const walkman = new WalkmanHandler();
+
 function Player() {
-    const walkman = new WalkmanHandler();
     const [url, setUrl] = useState(walkman.url);
     const [index, setIndex] = useState(walkman.currentSongIndex);
     const [name, setName] = useState(walkman.name);
@@ -33,7 +34,7 @@ function Player() {
                 <button onClick={() => next()}>Next</button>
             </div>
             <div>
-                <p>Song N°{index}</p>
+                <p>Song N°{index+1}</p>
                 <p>Title: {name}</p>
                 <p>Author: {author}</p>
             </div>
