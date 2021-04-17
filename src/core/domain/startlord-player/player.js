@@ -6,12 +6,12 @@ function Player(playlist) {
 
 Player.prototype.play = function () {
     this.isPlaying = true;
-    console.log(`playing`, this.playlist[this.currentSongIndex]);
+    return this.playlist[this.currentSongIndex];
 };
 
 Player.prototype.pause = function () {
     this.isPlaying = false;
-    console.log(`pausing`, this.playlist[this.currentSongIndex]);
+    return this.playlist[this.currentSongIndex];
 };
 
 Player.prototype.next = function () {
@@ -20,16 +20,16 @@ Player.prototype.next = function () {
     } else {
         this.currentSongIndex = 0;
     }
-    console.log('next !');
+    return this.currentSongIndex;
 };
 
 Player.prototype.previous = function () {
     if (this.currentSongIndex - 1 > -1) {
         this.currentSongIndex--;
     } else {
-        this.currentSongIndex = this.playlist.length;
+        this.currentSongIndex = this.playlist.length - 1;
     }
-    console.log('previous !');
+    return this.currentSongIndex;
 };
 
 module.exports = Player;
