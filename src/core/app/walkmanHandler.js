@@ -34,19 +34,19 @@ function WalkmanHandler() {
 
     Object.defineProperty(this, 'url', {
         get: function () {
-            return this.isPlaying ? this.walkman.play()?.path : this.walkman.pause()?.path;
+            return this.isPlaying ? this.walkman.play().path : this.walkman.pause().path;
         }
     });
 
     Object.defineProperty(this, 'name', {
         get: function () {
-            return this.isPlaying ? this.walkman.play()?.name : this.walkman.pause()?.name;
+            return this.isPlaying ? this.walkman.play().name : this.walkman.pause().name;
         }
     });
 
     Object.defineProperty(this, 'author', {
         get: function () {
-            return this.isPlaying ? this.walkman.play()?.author : this.walkman.pause()?.author;
+            return this.isPlaying ? this.walkman.play().author : this.walkman.pause().author;
         }
     });
 }
