@@ -2,6 +2,10 @@
 
 Full JS project
 
+## See live demo
+
+https://andonary.github.io/starlord-player/
+
 ## Run only core domain
 ```
 node ./index.js
