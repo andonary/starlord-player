@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/starlord-player/static/css/main.ea45de04.chunk.css",
+    "main.js": "/starlord-player/static/js/main.4732539a.chunk.js",
+    "main.js.map": "/starlord-player/static/js/main.4732539a.chunk.js.map",
+    "runtime-main.js": "/starlord-player/static/js/runtime-main.93379643.js",
+    "runtime-main.js.map": "/starlord-player/static/js/runtime-main.93379643.js.map",
+    "static/js/2.3bb9f044.chunk.js": "/starlord-player/static/js/2.3bb9f044.chunk.js",
+    "static/js/2.3bb9f044.chunk.js.map": "/starlord-player/static/js/2.3bb9f044.chunk.js.map",
+    "static/js/3.92748962.chunk.js": "/starlord-player/static/js/3.92748962.chunk.js",
+    "static/js/3.92748962.chunk.js.map": "/starlord-player/static/js/3.92748962.chunk.js.map",
+    "index.html": "/starlord-player/index.html",
+    "static/css/main.ea45de04.chunk.css.map": "/starlord-player/static/css/main.ea45de04.chunk.css.map",
+    "static/js/2.3bb9f044.chunk.js.LICENSE.txt": "/starlord-player/static/js/2.3bb9f044.chunk.js.LICENSE.txt",
+    "static/media/wallpaper.d9d60acc.jpg": "/starlord-player/static/media/wallpaper.d9d60acc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93379643.js",
+    "static/js/2.3bb9f044.chunk.js",
+    "static/css/main.ea45de04.chunk.css",
+    "static/js/main.4732539a.chunk.js"
+  ]
+}
